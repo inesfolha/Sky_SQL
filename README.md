@@ -141,11 +141,11 @@ This will start the Flask development server, and the API will be accessible at:
 [Back to the Top](#top)
 
 ### Usage
- * [Watch Demo](link)
+ * [Watch Demo](https://www.youtube.com/watch?v=stoOwkUeys0)
 
 
 ### Limitations
-- Static Data: The flight data in the provided SQLite database (flights.sqlite3) is static and does not update in real-time. It represents a snapshot of data at a specific point in time.
+- Static Data: The flight data in the provided SQLite database (flights.sqlite3) is static and does not update in real-time. It represents a snapshot of data at a specific point in time (2015).
 
 
 - Performance: The API's query performance may vary based on query complexity and database size. Complex queries may take longer to execute, affecting response times.
