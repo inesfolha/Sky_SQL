@@ -53,28 +53,28 @@ Here's the file structure of the project:
 - URL: /flights/<int:flight_id>
 - Method: GET 
 - Description: Retrieve flight details by flight ID. 
-- Example: http://localhost:5000/flights/123
+- Example: http://localhost:5000/flights/2
 
 #### Get Delayed Flights by Airline
 
 - URL: /flights/delayed/<string:airline_name>
 - Method: GET 
 - Description: Retrieve delayed flights for a specific airline. 
-- Example: http://localhost:5000/flights/delayed/Delta
+- Example: http://localhost:5000/flights/delayed/JetBlue%20Airways
 
 #### Get Delayed Flights by Airport
 
 - URL: /flights/delayed/airport/<string:airport_iata>
 - Method: GET 
 - Description: Retrieve delayed flights departing from a specific airport (by IATA code). 
-- Example: http://localhost:5000/flights/delayed/airport/JFK
+- Example: http://localhost:5000/flights/delayed/airport/ATL
 
 #### Get Flights by Date
 
 - URL: /flights/<int:day>/<int:month>/<int:year>
 - Method: GET 
 - Description: Retrieve flights for a specific date. 
-- Example: http://localhost:5000/flights/1/10/2023
+- Example: http://localhost:5000/flights/04/01/2015
 
 [Back to the Top](#top)
 
